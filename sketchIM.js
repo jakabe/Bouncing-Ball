@@ -9,7 +9,7 @@ new p5(
         p5.setup = function()
         {
             p5.createCanvas(400,400);
-            ball = new ball( width /2 , height /2, 20);
+            ball = new ball( p5.width /2 , p5.height /2, 20);
         }
         p5.draw = function()
         {
